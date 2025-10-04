@@ -1,14 +1,22 @@
 # AI-screen-animals
 
-main
-├── ml/                ← нейронка (ветка друга)
-│   ├── train_model.py
-│   ├── model.h5
-│   └── requirements.txt
+Проект для распознавания кошек и собак на изображениях с графическим интерфейсом.
+
+---
+
+## Структура проекта
+
+AI-screen-animals/
 │
-├── app/               ← твой GUI (ветка app)
-│   ├── gui.py
-│   ├── model_loader.py
-│   └── assets/
+├── ml/ # Ветка с нейронной сетью
+│ ├── train_model.py # Скрипт обучения модели
+│ ├── model.h5 # Обученная модель (Keras) или model.pth (PyTorch)
+│ └── requirements.txt # Зависимости для ML
 │
-└── README.md
+├── app/ # Ветка с графическим интерфейсом
+│ ├── gui.py # Основной GUI приложения
+│ ├── model_loader.py # Загрузка модели и функция предсказания
+│ └── assets/ # Изображения, иконки, стили для GUI
+│
+├── README.md # Этот файл с описанием проекта
+└── requirements.txt # Общие зависимости для проекта
