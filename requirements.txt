@@ -1,0 +1,5 @@
+pyTelegramBotAPI
+tensorflow
+Pillow
+numpy
+python-dotenv
